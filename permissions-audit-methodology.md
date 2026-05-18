@@ -44,7 +44,7 @@ The loop:
 
 Stop when a pass produces no new findings.
 
-Our run took six rounds and settled at **72 allows / 66 denies** for the
+Our run took six rounds and settled at **72 allows / 67 denies** for the
 audited core (lists in the appendix). Round 1 was the initial draft —
 roughly 68 allows / 33 denies. Most of the deny-list growth came on
 rounds 2–6, which is the point: the method's value is what it surfaces
@@ -203,7 +203,7 @@ the obvious destructive patterns (`rm -rf /`, `sudo *`, `dd *`,
 `git push --force`).
 
 Rounds 2 through 6 each surfaced a new gap class as we walked the list
-against the catalog above. The deny list nearly doubled to 66; the
+against the catalog above. The deny list nearly doubled to 67; the
 allow list moved less. Most of the audit's value lived in the deny
 list growth.
 
@@ -280,7 +280,7 @@ second layer behind the hook.
 
 ## Appendix: example lists
 
-The 72 allows and 66 denies below are **one team's output after six
+The 72 allows and 67 denies below are **one team's output after six
 audit rounds**, not recommended defaults. Don't copy them; audit your
 own list using the method.
 
@@ -385,7 +385,7 @@ Bash(git -C * diff)
 Bash(git -C * diff *)
 ```
 
-### Denies (66)
+### Denies (67)
 
 ```
 Bash(git push --force *)

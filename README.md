@@ -16,7 +16,7 @@ top.
 The doc walks through the iterative method, a catalog of nine gap
 classes we surfaced across six audit rounds, matcher limits we
 chose to document rather than chase, and example allow/deny lists
-(72 entries / 66 entries) as illustration — not as recommended
+(72 entries / 67 entries) as illustration — not as recommended
 defaults.
 
 → **[Read the methodology](./permissions-audit-methodology.md)**
