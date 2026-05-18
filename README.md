@@ -21,4 +21,7 @@ defaults.
 
 → **[Read the methodology](./permissions-audit-methodology.md)**
 
+No network requests. Markdown documentation only; nothing executable
+in this repo.
+
 License: [CC-BY 4.0](./LICENSE). Adapt freely with attribution.
