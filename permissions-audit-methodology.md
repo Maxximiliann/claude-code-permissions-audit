@@ -162,15 +162,12 @@ bare `xargs`.
 
 **Active matcher bugs to cite honestly:**
 
-- [#6699](https://github.com/anthropics/claude-code/issues/6699) —
-  deny permissions not always enforced in some configurations.
 - [#13340](https://github.com/anthropics/claude-code/issues/13340) —
-  allow rules not respected for various pipe and prefix cases (open;
-  mixed-fix reports).
-- [#27139](https://github.com/anthropics/claude-code/issues/27139) —
-  wildcards vs specific entries interaction.
+  allow rules not respected for various pipe and prefix cases. Open
+  since 2025-12, mixed-fix reports through 2026-04.
 - [#41259](https://github.com/anthropics/claude-code/issues/41259) —
-  allow rules drop after Edit writes.
+  permissions not respected after the Edit tool modifies
+  `settings.local.json`. Open.
 
 These are the reason "matcher is defense-in-depth, not primary defense"
 is not a defensive disclaimer — it's the actual security model.
